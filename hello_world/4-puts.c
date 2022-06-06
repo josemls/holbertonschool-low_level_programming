@@ -1,9 +1,9 @@
 #!/bin/bash
 int main()
 {
-	char [] = "Programming is like building a multilingual puzzle" ;
+	char line [] = "Programming is like building a multilingual puzzle" ;
 
-	puts []; 
+	puts (line); 
 
 	return 0;
 }
