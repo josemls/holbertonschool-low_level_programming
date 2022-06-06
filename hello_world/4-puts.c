@@ -1,3 +1,4 @@
+/* using puts */
 #include <stdio.h>
 
 int main(void)
@@ -6,6 +7,5 @@ int main(void)
 
 	puts(str1);
 
-	return 0;
-	
+	return (0);
 }
