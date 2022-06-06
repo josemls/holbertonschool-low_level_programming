@@ -2,6 +2,8 @@
 #include <stdio.h>
 /**
  * main -  "displaying programing is like building a multibilingual puzzle"
+ *
+ * Return: 0
  */
 int main(void)
 {
