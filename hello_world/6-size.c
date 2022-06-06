@@ -1,22 +1,23 @@
-#include<stdio.h>
+/*C program that prints size of var*/
+#include <stdio.h>
+
 /**
- * main - size in bytes
- *
- * Return: 0
- */
+  * main - Prints the size of var
+  *
+  * Return: 0
+  */
 int main(void)
 {
-int intType;
-float floatType;
-long int longintType;
-char charType;
-long long int longlongintType;
+        char a;
+        int b;
+        long int c;
+        long long int d;
+        float e;
 
-printf("Size of int: %zu bytes\n", sizeof(intType));
-printf("Size of float: %zu bytes\n", sizeof(floatType));
-printf("Size of long int: %zu bytes\n", sizeof(longintType));
-printf("Size of char: %zu byte\n", sizeof(charType));
-printf("Size of long long int: %zu byte\n", sizeof(longlongintType));
-	return (0);
+        printf("Size of a char: %zu byte(s)\n", sizeof(a));
+        printf("Size of an int: %zu byte(s)\n", sizeof(b));
+        printf("Size of a long int: %zu byte(s)\n", sizeof(c));
+        printf("Size of a long long int: %zu byte(s)\n", sizeof(d));
+        printf("Size of a float: %zu byte(s)\n", sizeof(e));
+        return (0);
 }
-
