@@ -1,6 +1,6 @@
 /* using puts */
 #include <stdio.h>
-/*
+/**
  * main -  "displaying programing is like building a multibilingual puzzle"
  */
 int main(void)
