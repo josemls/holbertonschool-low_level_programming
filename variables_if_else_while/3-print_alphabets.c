@@ -1,6 +1,6 @@
 #include <stdio.h>
-/*
- * main - "program that prints all lower and then upper"
+/**
+ * main - Prints all lowercase and then uppercase
  *
  * Return: 0
  */
