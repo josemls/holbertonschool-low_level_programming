@@ -1,28 +1,30 @@
-
-#include "main.h"
+#include "holberton.h"
 
 /**
- * print_diagonal - Draws a diagonal line using \.
- * @n: The num of \ char printed
- */
+  * print_diagonal - draws a straight line
+  * @n: number of lines
+  */
 
 void print_diagonal(int n)
 {
-	int len, space;
+	int l, x;
 
-	if (n > 0)
+	for (l = 0; l <= n; l++)
 	{
-		for (len = 0; len < n; len++)
+		for (x = 1; x <= l; x++)
+		if  (l == x)
 		{
-			for (space = 0; space < len; space++)
-				_putchar(' ');
-			_putchar('\\');
-
-			if (len == n - 1)
-				continue;
-
-			_putchar('\n');
+		_putchar('\\');
+		_putchar('\n');
+		}
+		else
+		{
+		_putchar(' ');
 		}
 	}
+		if (n <= 0)
+		{
+		_putchar('\n');
+		}
 
-	_putchar('\n');
+}
