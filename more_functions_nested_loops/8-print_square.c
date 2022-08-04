@@ -1,8 +1,10 @@
 #include "main.h"
 
 /**
- * print_diagonal - Draws a diagonal line using \.
- * @n: The num of \ char printed
+ *
+ *
+ *print_diagonal - Draws a diagonal line using \
+ *@n: The num of \ char printed
  */
 
 void print_diagonal(int n)
