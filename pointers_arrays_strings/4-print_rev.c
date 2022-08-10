@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * rev_string - to print a string in reverse
+ * print_rev - to print a string in reverse
  * @s: string recieved
  * Return: void
  */
@@ -19,4 +19,5 @@ void print_rev(char *s)
 		_putchar(s[i]);
 			i--;
 	}
+	_putchar('\n')
 }
